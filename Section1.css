@@ -1,0 +1,56 @@
+.section1 {
+  display: block;
+  width: 100%;
+}
+.section1 > .iphone-icons {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0;
+  background-color: rgb(245, 245, 247);
+}
+.section1 > .head {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.section1 > .title {
+  margin-top: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.title > .title-head1 {
+  width: 100px;
+  margin-left: 100px;
+  h1 {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    width: 100px;
+    margin-top: 50px;
+    position: relative;
+    font-size: 52px;
+  }
+  h2{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+    /* margin-right: 100px; */
+  }
+}
+.title-head2 {
+  width: 450px;
+  font-size: 28px;
+  margin-right: 10px;
+  margin-top: 50px;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.section1 > .section1-video {
+  display: flex;
+  margin-top: 100px;
+}

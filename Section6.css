@@ -1,0 +1,79 @@
+.section6 {
+  width: 100%;
+  height: 800px;
+}
+.section6 > .section6-head {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.section6 > .section6-head > .section6-headInfo {
+  width: 200px;
+  margin-left: 1100px;
+  margin-top: -25px;
+  font-size: 18px;
+  text-align: end;
+  color: rgb(0, 113, 227);
+}
+.section6 > .section6-contents {
+  display: flex;
+  justify-content: space-around;
+}
+.section6 > .section6-contents > .section6-content1 {
+  width: 650px;
+  height: 600px;
+  margin-left: 75px;
+  border-radius: 25px;
+  background-color: rgb(245, 245, 247);
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  p {
+    text-align: center;
+    text-decoration: none;
+    cursor: text;
+    line-height: 25px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.section6-para1 {
+  margin-top: 25px;
+}
+.section6 > .section6-contents > .section6-content2 {
+  width: 650px;
+  height: 600px;
+  margin-right: 75px;
+  border-radius: 25px;
+  background-color: rgb(245, 245, 247);
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  p {
+    text-align: center;
+    text-decoration: none;
+    cursor: text;
+    line-height: 25px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.section6-para1 {
+  margin-top: 25px;
+  color: black;
+}
+.buy {
+  color: rgb(0, 113, 227);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.buy:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

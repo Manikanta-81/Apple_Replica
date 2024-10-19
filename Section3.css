@@ -1,0 +1,110 @@
+.section3 {
+  width: 100%;
+  height: 750px;
+  background-color: rgb(245, 245, 247);
+}
+.section3 > .section3-title {
+  font-size: 26px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  p {
+    color: rgb(0, 113, 227);
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    margin-top: -25px;
+    margin-right: 160px;
+    font-size: 18px;
+    text-align: end;
+  }
+  p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.section3 > .section3-images > .image {
+  display: flex;
+  justify-content: space-around;
+}
+img:hover {
+  cursor: pointer;
+}
+.image-info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: white;
+}
+.info1 {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  width: 400px;
+  height: 200px;
+  padding-left: 50px;
+  display: block;
+  justify-content: center;
+  position: relative;
+}
+.info2 {
+  width: 400px;
+  height: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+}
+.info3 {
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+.mobile-brands {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  button:hover {
+    cursor: pointer;
+  }
+  h6 {
+    color: rgb(182, 68, 0);
+    text-align: center;
+    margin-top: 75px;
+  }
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  p:hover {
+    text-decoration: none;
+  }
+  button {
+    margin-left: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0, 113, 227);
+    height: 45px;
+    width: 120px;
+    border-radius: 33px;
+    border: none;
+  }
+  h5 {
+    display: inline;
+    color: rgb(0, 113, 227);
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 0;
+  }
+  h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

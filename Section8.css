@@ -1,0 +1,29 @@
+h1{
+  font-size: 48px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.section8{
+  margin-top: 100px;
+
+  width: 100%;
+  height: 700px;
+  background-color: rgb(245, 245, 247);
+}
+.section8>.section8-contents{
+  margin-left: 100px;
+  margin-top: 50px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
+  display: flex;
+  p,h5{
+    cursor: pointer;
+    text-decoration: none;
+  }
+  /* justify-content:space-evenly; */
+
+}
+.section8>.section8-contents>.section8-content1{
+  margin-right: 100px;
+  
+}
