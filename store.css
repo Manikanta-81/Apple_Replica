@@ -10,6 +10,9 @@
   vertical-align: top;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
 
 .nav-container > .navbar {
   width: 100%;
